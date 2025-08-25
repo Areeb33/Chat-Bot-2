@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  /* position: relative; */
+  height: 100vh;
+  flex-direction: column;
+  background-color: darkgray;
+  /* align-items: center; */
+}
+.chatandbutt {
+  display: flex;
+  gap: 5px;
+  position: fixed;
+  bottom: 40px;
+  left: 35%;
+}
+.chat-history {
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+}
+.chat-history > .userInput {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(133, 131, 131);
+  /* width: 50%; */
+}
+
+.chatandbutt {
+  display: flex;
+  gap: 5px;
+  position: fixed;
+  bottom: 40px;
+  left: 35%;
+}
+.chatArea {
+  height: 30px;
+  width: 50vh;
+  border-radius: 10px;
+}
+.send {
+  border-radius: 30%;
+}
